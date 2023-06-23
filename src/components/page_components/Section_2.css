@@ -1,0 +1,22 @@
+.Section_2{
+    width: 100vw;
+    text-transform: uppercase;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+.Section_2 .columns .column h1{
+    font-size: 100px;
+    line-height: inherit;
+}
+
+.columns{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}

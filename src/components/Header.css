@@ -1,0 +1,153 @@
+.Header{ 
+    height: 100px;
+    width: 100%;
+    background: none;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    transition: transform 0.5s;
+}
+
+.Header.hidden {
+    transform: translateY(-100%);
+}
+  
+.Header.visible {
+    transform: translateY(0);
+}
+
+img{
+    height: 120px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    margin: 0 10px;
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+.menu{
+    margin: 0;
+    
+}
+
+.customMenuIcon{
+    color:#fff;
+}
+
+
+.rightMenu{
+    margin-right: 50px;
+}
+
+.menuTab{
+    position: fixed;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    width: 350px;
+    height: 100vh;
+    background: #282828;
+    backdrop-filter: blur(100%);
+}
+
+.menuTab ul{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.menuTab ul li{
+    width: 250px;
+    text-align: right;
+    padding: 15px 0;
+    border-bottom:  1px solid #474747;
+    
+}
+.rightMenu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.customCloseIcon{
+    color: #fff;
+}
+
+.BlurEffect {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  z-index: 5;
+  pointer-events: none;
+}
+
+.smallMenuTab{
+    display: none;
+}
+
+@media(max-width: 1250px){
+    .menu{
+        display: none;
+    }
+    .menuTab{
+        display: none;
+    }
+    .shop{
+        display: none;
+    }
+    .smallMenuTab{
+        display: block;
+        position: fixed;
+        cursor: pointer;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 10;
+        width: 350px;
+        height: 100%;
+        background: #2d2d2d;
+        backdrop-filter: blur(100%);
+    }
+    
+    .smallMenuTab ul{
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+    
+    .smallMenuTab ul li{
+        width: 250px;
+        text-align: right;
+        padding: 15px 0;
+        border-bottom:  1px solid #474747;
+        
+    }
+}
+
+.menuButton{
+    margin: 0 10px;
+}

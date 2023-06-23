@@ -1,0 +1,22 @@
+.Section_1{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.center_text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.Section_1 .center_text h1{
+    font-size: 100px;
+    line-height: normal;
+}
