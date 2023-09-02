@@ -9,9 +9,9 @@ const Home = () => {
       <Header/>
       <Section
       description={'Upcoming Launch'}
-      title={'Starlink Mission'}
+      title={'ESA Euclid Mission'}
       buttonText={'watch'}
-      bgImage={'starlink-mission_2.jpg'}
+      bgImage={'esa-euclid-mission.jpg'}
       link={''}
       />
       <Section

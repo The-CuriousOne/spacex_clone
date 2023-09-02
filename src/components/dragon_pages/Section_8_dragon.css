@@ -1,0 +1,12 @@
+.Section_8_dragon{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.Section_8_dragon .image img{
+    height: auto;
+    width: 700px;
+}

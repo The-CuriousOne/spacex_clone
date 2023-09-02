@@ -1,0 +1,151 @@
+.Section_4_dragon{
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+#slider1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#slider1 .videoComponent{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#slider1 .videoComponent .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.textComponents{
+    height: 100vh;
+    width: 90vw;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    left: 8vw;
+    position: relative;
+    font-weight: bold;
+}
+
+.textComponents ul{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin: 20px 0;
+}
+
+.textComponents h1{
+    font-size: 48px;
+}
+
+.textComponents ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: #707070 1px solid;
+}
+
+.textComponents ul li .value{
+    display: flex;
+    text-transform: none;
+}
+
+.textComponents .value p{
+    color: #707070;
+    margin: 0 10px;
+}
+
+#slider_3{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#slider_3 .textComponents p{
+    width: 30vw;
+    margin: 10px 0;
+    text-transform: none;
+    font-weight: normal;
+}
+
+#slider_3 .textComponents h4{
+    margin: 50px 0;
+    display: flex;
+}
+
+#slider_3 .textComponents h4 p{
+    text-transform: uppercase;
+    color: #707070;
+    margin: 0 5px;
+}
+
+#slider_3 .textComponents ul li {
+    padding: 10px 0px;
+}
+
+#slider_3 .textComponents ul li .value p{
+    width: auto;
+}
+
+#slider2{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#slider2 .textComponents p{
+    width: 30vw;
+    margin: 10px 0;
+    text-transform: none;
+    font-weight: normal;
+}
+
+#slider2 .textComponents h4{
+    margin: 50px 0;
+    display: flex;
+}
+
+#slider2 .textComponents h4 p{
+    text-transform: uppercase;
+    color: #707070;
+    margin: 0 5px;
+}
+
+#slider2 .textComponents ul li {
+    padding: 10px 0px;
+}
+
+#slider2 .textComponents ul li .value p{
+    width: auto;
+}
+
+.sliderComponent{
+    display: none;
+    transition: display 1s ease-in-out;
+}
+
+.sliderComponent.active{
+    display: block;
+}
+
+.buttonGroup{
+    margin: 0 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}

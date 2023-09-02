@@ -26,7 +26,7 @@ const Falcon9 = () => {
       bgImage={'falcon_9/f9_desc_image.jpg'}
       description={'Falcon 9 is a reusable, two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of people and payloads into Earth orbit and beyond. Falcon 9 is the world’s first orbital class reusable rocket. Reusability allows SpaceX to refly the most expensive parts of the rocket, which in turn drives down the cost of space access. '}/>
       <Section_4
-      videoLink={'falcon9/f9_overvier.mp4'}
+      videoLink={'falcon_9/f9_overview.mp4'}
       title={'Falcon 9'}
       bgImage1={'falcon_9/f9_first_stage.jpg'}
       bgImage2={'falcon_9/f9_interstage.jpg'}
@@ -60,7 +60,7 @@ const Falcon9 = () => {
       ppay_diameter={'17.1'}
       />
       <Section_5
-      bgImage={'falcon9/f9_video.jpg'}
+      bgImage={'falcon_9/f9_video.jpg'}
       title={'Falcon 9 in Flight'}
       link={'https://www.youtube.com/watch?v=Z4TXCZG_NEY&t=3s'}/>
       <Section_6/>

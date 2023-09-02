@@ -1,0 +1,72 @@
+.Section_7_dragon{
+    height: 100vh;
+    width: 100vw;
+    background: url("/public/images/dragon/draco.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    text-transform: uppercase; 
+}
+
+.textComponent{
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    left: 10vw;
+    position: relative;
+    font-weight: bold;
+}
+
+.textComponent h1{
+    font-size: 48px;
+}
+
+.textComponent h4{
+    margin: 50px 0;
+    display: flex;
+}
+
+.textComponent h4 p{
+    text-transform: uppercase;
+    color: #707070;
+    margin: 0 5px;
+}
+
+.textComponent p{
+    text-transform: none;
+    font-weight: normal;
+    width: 34vw;
+    margin: 20px 0;
+}
+
+.textComponent ul{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin: 20px 0;
+}
+
+.textComponent ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: #707070 1px solid;
+}
+
+.textComponent ul li .value{
+    display: flex;
+    text-transform: none;
+}
+
+.textComponent ul li .value p{
+    color: #707070;
+    margin: 0 10px;
+    width: auto;
+}

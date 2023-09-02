@@ -7,16 +7,22 @@
     color: #fff;
     text-transform: uppercase;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .center_text{
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
 }
 
 .Section_1 .center_text h1{
     font-size: 100px;
     line-height: normal;
+}
+
+.bottom_button{
+    margin-bottom: 80px;
+    animation: animateDown infinite 3s ease-in-out;
+
 }
