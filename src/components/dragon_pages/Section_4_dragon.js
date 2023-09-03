@@ -109,7 +109,7 @@ const Section_4_dragon = ({videoLink,title,bgImage1,bgImage2,height,pheight,diam
           </div>
         </div>
         <div className="buttonGroup">
-          <ArrowBackIosNewIcon fontSize="large" onClick={() => {
+          <ArrowBackIosNewIcon className="arrow" fontSize="large" onClick={() => {
             if (slideNumber >= 2 && slideNumber <= 3) {
               setSlideNumber(slideNumber - 1);
               setActiveSlider(`slider${slideNumber - 1}`);
@@ -120,7 +120,7 @@ const Section_4_dragon = ({videoLink,title,bgImage1,bgImage2,height,pheight,diam
             <FiberManualRecordIcon fontSize="small" opacity={`${slideNumber===2?'100%':'50%'}`}></FiberManualRecordIcon>
             <FiberManualRecordIcon fontSize="small" opacity={`${slideNumber===3?'100%':'50%'}`}></FiberManualRecordIcon>
         </div>
-          <ArrowForwardIosNewIcon fontSize="large" onClick={() => {
+          <ArrowForwardIosNewIcon className="arrow" fontSize="large" onClick={() => {
             if (slideNumber >= 1 && slideNumber <= 2) {
               setSlideNumber(slideNumber + 1);
               setActiveSlider(`slider${slideNumber + 1}`);

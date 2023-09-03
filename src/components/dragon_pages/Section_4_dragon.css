@@ -1,5 +1,5 @@
 .Section_4_dragon{
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     color: #fff;
     text-transform: uppercase;
@@ -143,9 +143,14 @@
 }
 
 .buttonGroup{
-    margin: 0 0;
+    z-index: 10;
+    margin: -100px 0 0 0;
     width: 100vw;
     display: flex;
     justify-content: space-between;
     padding: 50px;
+}
+
+.Section_4_dragon .buttonGroup .arrow{
+    z-index: 10;
 }

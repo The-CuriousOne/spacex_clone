@@ -1,10 +1,9 @@
 .Section_4{
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     color: #fff;
     text-transform: uppercase;
 }
-
 
 #slider1{
     position: relative;
@@ -163,10 +162,15 @@
     display: block;
 }
 
-.buttonGroup{
-    margin: 0 0;
+.Section_4 .buttonGroup{
+    z-index: 10;
+    margin: -100px 0 0 0;
     width: 100vw;
     display: flex;
     justify-content: space-between;
     padding: 50px;
+}
+
+.Section_4 .buttonGroup .arrow{
+    z-index: 10;
 }
