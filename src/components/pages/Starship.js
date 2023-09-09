@@ -1,16 +1,13 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
 import Section_1 from '../page_components/Section_1';
-import Section_2 from '../page_components/Section_2';
-import Section_3 from '../page_components/Section_3';
 import Section_2_starship from '../starship_pages/Section_2_starship';
 import Section_3_starship from '../starship_pages/Section_3_starship';
-import Section_5 from '../page_components/Section_5';
-import Section_6 from '../page_components/Section_6';
-import Section_7 from '../page_components/Section_7';
-import Section_8 from '../page_components/Section_8';
-import Section_4_dragon from '../dragon_pages/Section_4_dragon';
+import Section_4_starship from '../starship_pages/Section_4_starship';
+import Section_5_starship from '../starship_pages/Section_5_starship';
+import Section_6_starship from '../starship_pages/Section_6_starship';
 
 const Starship = () => {
   return (
@@ -66,6 +63,39 @@ const Starship = () => {
       />
       <Section_3_starship
       bgImage={"starship/starship_videobck.jpg"}/>
+      <Section_4_starship
+      bgImage1={"starship/slider1.jpg"}
+      bgImage2={"starship/slider2.jpg"}
+      bgImage3={"starship/slider3.jpg"}
+      bgImage4={"starship/slider4.jpg"}
+      bgImage5={"starship/slider5.jpg"}
+      slider1_title1={"Starship"}
+      slider1_title2={"Capabilities"}
+      slider1_desc={"As the most powerful launch system ever developed, Starship will be able to carry up to 100 people on long-duration, interplanetary flights. Starship will also help enable satellite delivery, the development of a Moon base, and point-to-point transport here on Earth."}
+      slider2_title1={"Payload"}
+      slider2_title2={"Delivery"}
+      slider2_desc={"Starship is designed to deliver payloads farther and at a lower marginal cost per launch than our current Falcon vehicles. With a payload compartment larger than any fairing currently in operation or development, Starship will enable transport of many satellites, large space telescopes, and significant amounts of cargo to Earth orbit, the Moon, Mars and beyond."}
+      slider3_title1={"Moon"}
+      slider3_title2={"Missions"}
+      slider3_desc={"Developing a Moon base to support future space exploration requires the transport of large amounts of cargo to the surface of the Moon. Starship is designed to carry these building blocks, further enabling research and human spaceflight development. SpaceX is providing the lunar lander which will return astronauts to the Moon’s surface for the first time in 50 years under NASA's Artemis missions."}
+      slider4_title1={"Interplanatery"}
+      slider4_title2={"Transportation"}
+      slider4_desc={"Building cities on Mars will require affordable delivery of significant quantities of cargo and crew. The fully reusable Starship system uses on-orbit propellent transfer to enable the transport of up to 100 people to Mars or other distant destinations. "}
+      slider5_title1={"Earth-to-earth"}
+      slider5_title2={"Transportation"}
+      slider5_desc={"Imagine traveling to anywhere in the world in an hour or less. With Starship and Super Heavy, most international trips could be completed in under 30 minutes. In addition to vastly increased speed, one great benefit to traveling outside of Earth’s atmosphere is the lack of friction as well as turbulence and weather."}
+      />
+      <Section_5_starship
+      bgImg={""}
+      vdo={"starship/tankdoc.mp4"}
+      title={"On-orbit Refueling"}
+      desc={"Starship leverages tanker vehicles (essentially the Starship spacecraft minus the windows) to refill the Starship spacecraft in low-Earth orbit prior to departing for Mars. Refilling on-orbit enables the transport of up to 100 tons all the way to Mars. And if the tanker ship has high reuse capability, the primary cost is just that of the oxygen and methane, which is extremely low."}
+      />
+      <Section_6_starship
+      bgImg={"starship/starbase.jpg"}
+      title={"Starbase"}
+      desc={"Development and manufacturing of Starship takes place at Starbase, one of the world’s first commercial spaceports designed for orbital missions."}
+      link={"https://youtu.be/KQBVOQ79G2s"}/>
       <Footer/>
     </div>
   )

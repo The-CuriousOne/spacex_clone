@@ -5,7 +5,7 @@ import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosNewIcon from '@mui/icons-material/ArrowForwardIos';
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
-const Section_2_dragon = ({videoLink,bgImage2,bgImage3,bgImage4,title1,slider1_desc,height1,pheight1,diameter1,pdiameter1,pcmass1,title2,slider2_desc,height2,pheight2,diameter2,pdiameter2,pcap2,ppcap2,thrust2,pthrust2,pcmass2,title3,slider3_desc,height3,pheight3,diameter3,pdiameter3,pcap3,ppcap3,thrust3,pthrust3,title4,engine1,engine2,slider4_desc,diameter4,pdiameter4,height4,pheight4,thrust4,pthrust4}) => {
+const Section_2_starship = ({videoLink,bgImage2,bgImage3,bgImage4,title1,slider1_desc,height1,pheight1,diameter1,pdiameter1,pcmass1,title2,slider2_desc,height2,pheight2,diameter2,pdiameter2,pcap2,ppcap2,thrust2,pthrust2,pcmass2,title3,slider3_desc,height3,pheight3,diameter3,pdiameter3,pcap3,ppcap3,thrust3,pthrust3,title4,engine1,engine2,slider4_desc,diameter4,pdiameter4,height4,pheight4,thrust4,pthrust4}) => {
 
   const[activeSlider, setActiveSlider] = useState('slider1');
   const[slideNumber, setSlideNumber] = useState(1);
@@ -196,4 +196,4 @@ const Section_2_dragon = ({videoLink,bgImage2,bgImage3,bgImage4,title1,slider1_d
   )
 }
 
-export default Section_2_dragon
+export default Section_2_starship;

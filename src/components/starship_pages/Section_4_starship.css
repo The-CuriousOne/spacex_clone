@@ -1,0 +1,51 @@
+.Section_4_s_starship{
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.textComponents{
+    height: 100vh;
+    width: 90vw;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    left: 8vw;
+    position: relative;
+    font-weight: bold;
+}
+
+.textComponents h1{
+    font-size: 48px;
+}
+
+.textComponents p{
+    width: 30vw;
+    margin: 10px 0;
+    text-transform: none;
+    font-weight: normal;
+}
+.sliderComponent{
+    display: none;
+    transition: display 1s ease-in-out;
+}
+
+.sliderComponent.active{
+    display: block;
+}
+
+.Section_4_starship .buttonGroup{
+    z-index: 5;
+    margin: -135px 0 0 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.Section_4_starship .buttonGroup .arrow{
+    z-index: 15;
+}

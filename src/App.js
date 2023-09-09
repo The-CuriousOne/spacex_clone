@@ -12,9 +12,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    // <div>
-    //   <Falcon9></Falcon9>
-    // </div>
     <BrowserRouter>
       <Routes> 
         <Route path='/' element={<Home/>}/>
@@ -28,9 +25,6 @@ function App() {
         <Route path='/starship' element={<Starship/>} />
       </Routes>
     </BrowserRouter>
-    // <div className="App">
-    //   <Home/>
-    // </div>
   );
 }
 

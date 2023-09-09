@@ -46,3 +46,7 @@ body{
     transform: translateY(90px);
   }
 }
+
+h1{
+  text-transform: uppercase;
+}
